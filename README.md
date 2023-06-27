@@ -17,6 +17,7 @@ pagina de sistema: futuramente
 > mudanças especificas
 > regras da casa
 > homebrew
+
 pagina do mapa: futuramente
 > o mapa da capital
 > resumo e guia das futuras abas de região
