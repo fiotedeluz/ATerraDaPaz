@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
+:root {
+    --cor-destaque: #000;
+    --cor-complementar: #0B7E80;
+    --cor-principal: #800D0B;
+    --cor-texto: #f8f8f8;
+   
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +17,8 @@
 
 
 body {
-    background-color:#000;
-    color: #f8f8f8;
+    background-color:var(--cor-destaque);
+    color:var(--cor-texto);
     /* height: 100vh; */
     box-sizing: border-box;
 }
@@ -18,9 +26,9 @@ body {
 
 .cabesalho {
     text-decoration: none;
-    background-color: #800D0B;
-    color: #000;
-    padding: 0.5% 0% 0% 9%;
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    padding: 0.5% 0% 0%;
 }
 
 
@@ -33,14 +41,13 @@ body {
 
 .cabesalho-menu-links {
     text-decoration: none;
-    color: #f8f8f8;
+    color: var(--cor-texto);
 
 }
 
 
 .titulo-destaque {
-    color: #800D0B;
-
+    color: var(--cor-destaque);
 }
 
 
@@ -52,9 +59,9 @@ h1{
 }
 
 span{
-    color: #800d0b;
-    border: 1px solid #800d0b;
-    padding: 10px;
+    color: var(--cor-destaque);
+    border: 1px solid var(--cor-destaque);
+    padding: principal
 }
 
 
@@ -85,8 +92,8 @@ span{
 
 .apresentaçao__pessoal__links__link {
     text-decoration: none;
-    color:#800D0B;
-    background-color:#0B7E80;
+    color:var(--cor-principal);
+    background-color:var(--cor-complementar);
     width: 165px;
     text-align: center;
     border-radius: 16px;
@@ -109,8 +116,8 @@ span{
 
 .rodape {
     padding: 8px;
-    color: #f8f8f8;
-    background-color:#800D0B;
+    color: var(--cor-texto);
+    background-color:var(--cor-principal);
     text-align: center;
 
 }
