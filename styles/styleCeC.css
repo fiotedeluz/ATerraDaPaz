@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
 :root {
-    --cor-destaque: #000;
+    --cor-destaque: #800D0B;
     --cor-complementar: #0B7E80;
-    --cor-principal: #800D0B;
+    --cor-principal: #000;
     --cor-texto: #f8f8f8;
-   
+
 }
 
 * {
@@ -17,7 +17,7 @@
 
 
 body {
-    background-color:var(--cor-destaque);
+    background-color:var(--cor-principal);
     color:var(--cor-texto);
     /* height: 100vh; */
     box-sizing: border-box;
@@ -26,7 +26,7 @@ body {
 
 .cabesalho {
     text-decoration: none;
-    background-color: var(--cor-principal);
+    background-color: var(--cor-destaque);
     color: var(--cor-fundo);
     padding: 0.5% 0% 0%;
 }
@@ -61,7 +61,7 @@ h1{
 span{
     color: var(--cor-destaque);
     border: 1px solid var(--cor-destaque);
-    padding: principal
+    padding: 10px;
 }
 
 
@@ -92,8 +92,8 @@ span{
 
 .apresentaçao__pessoal__links__link {
     text-decoration: none;
-    color:var(--cor-principal);
-    background-color:var(--cor-complementar);
+    color:var(--cor-texto);
+    background-color:var(--cor-destaque);
     width: 165px;
     text-align: center;
     border-radius: 16px;
@@ -117,7 +117,7 @@ span{
 .rodape {
     padding: 8px;
     color: var(--cor-texto);
-    background-color:var(--cor-principal);
+    background-color:var(--cor-destaque);
     text-align: center;
 
 }
