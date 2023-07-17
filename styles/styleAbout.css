@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
 
+:root {
+    --cor-destaque: #800D0B;
+    --cor-complementar: #0B7E80;
+    --cor-principal: #000;
+    --cor-texto: #f8f8f8;
+
+}
 
 
 * {
@@ -9,17 +19,20 @@
 
 
 body {
-    background-color:#000;
-    color: #f8f8f8;
+    background-color:var(--cor-principal);
+    color: var(--cor-texto);
     /* height: 100vh; */
     box-sizing: border-box;
 }
 
+.textoDestaque {
+    color: var(--cor-destaque)
+}
 
 .cabesalho {
     text-decoration: none;
-    background-color: #800D0B;
-    color: #000;
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
     padding: 0.5% 0% 0% 9%;
 }
 
@@ -33,6 +46,6 @@ body {
 
 .cabesalho-menu-links {
     text-decoration: none;
-    color: #f8f8f8;
+    color: var(--cor-principal);
 
 }
